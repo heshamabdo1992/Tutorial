@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="My Test">
+  <!-- <parameter name="browserName" value="FIREFOX"/>-->
+  <!-- <parameter name="browserName" value="IE"/> -->
+  <parameter name="browserName" value="Chrome"/>
+  <parameter name="URL" value="https://juliemr.github.io/protractor-demo/"/>
+    <classes>
+      <class name="TestNG_Factory.A4_1_Supper_Calculator____________DriverFactory"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite guice-stage="DEVELOPMENT" name="Default suite" parallel="tests"  thread-count="2">
+	<parameter name="URL" value="https://juliemr.github.io/protractor-demo/" />
+
+	<test verbose="2" name="chrome">	
+		<parameter name="browserName" value="chrome" />
+		<classes>
+			<class name="TestNG_Factory.A4_2_Supper_Calculator____________DriverFactory_Special_Path" />	
+		</classes>
+	</test>
+	
+	<test verbose="2" name="FF">
+		<parameter name="browserName" value="firefox" />
+		<classes>
+			<class name="TestNG_Factory.A4_2_Supper_Calculator____________DriverFactory_Special_Path" />
+		</classes>
+	</test>
+
+</suite> 
